@@ -16,3 +16,7 @@ spring:
           issuer-uri: http://auth-server:9000
   kafka:
     bootstrap-servers: localhost:9092
+  datasource:
+    url: jdbc:postgresql://localhost:5434/task
+    username: 'task'
+    password: 'task'
